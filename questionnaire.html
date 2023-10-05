@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professional Practice Self-Assessment</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    button {
+      display: block;
+      margin-top: 20px;
+    }
+
+    #result {
+      margin-top: 30px;
+    }
+
+    .incorrect {
+      color: red;
+    }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Professional Practice Self-Assessment</h1>
+    <p>You are a programmer at XYZ Company. Answer the following scenario-based questions based on your professional practice in this company.</p>
+    <form id="selfAssessmentForm">
+        <!-- 问题1：Guidelines -->
+        <h2>Scenario 1: Following guidelines</h2>
+        <p>Your project manager has provided you with clear coding guidelines and coding standards. However, you decide to ignore them and write the
+            code in your own way. What would you do in this situation?</p>
+        <label><input type="radio" name="guidelines" value="follow">I would follow the provided guidelines as instructed.</label>
+        <label><input type="radio" name="guidelines" value="ignore">I would ignore the guidelines and write the code in my own way.</label>
+
+        <!-- 问题3：Stakeholders -->
+        <h2>Scenario 2: Communication with Stakeholders</h2>
+        <p>You have received feedback from a client indicating that they are dissatisfied with the progress of a project. How would you respond to
+            this feedback?</p>
+        <label><input type="radio" name="stakeholders" value="communicate">I would promptly communicate with the client to understand their concerns
+            and address them.</label>
+        <label><input type="radio" name="stakeholders" value="ignoreFeedback">I would ignore the feedback and continue with the project as
+            planned.</label>
+
+        <!-- 问题4：Environment -->
+        <h2>Scenario 3: Environmental Impact</h2>
+        <p>Your company promotes eco-friendly practices, but you notice that a colleague is routinely wasting resources. How would you handle this
+            situation?</p>
+        <label><input type="radio" name="environment" value="address">I would address the issue with my colleague and encourage them to adopt more
+            eco-friendly practices.</label>
+        <label><input type="radio" name="environment" value="ignoreWaste">I would ignore my colleague's actions and not get involved.</label>
+
+        <!-- 问题5：Team -->
+        <h2>Scenario 4: Teamwork</h2>
+        <p>Your team is working on a critical project, but there is a lack of collaboration among team members. How would you contribute to improving
+            teamwork?</p>
+        <label><input type="radio" name="team" value="collaborate">I would actively collaborate with team members, share ideas, and promote a
+            collaborative environment.</label>
+        <label><input type="radio" name="team" value="workAlone">I would work independently and not engage in teamwork efforts.</label>
+
+        <!-- 问题6：Ethical -->
+        <h2>Scenario 5: Ethical Dilemma</h2>
+        <p>Your leader has asked you to manipulate data in a way that could potentially mislead clients. How would you respond to this situation?</p>
+        <label><input type="radio" name="ethical" value="report">I would report the unethical request to higher authorities.</label>
+        <label><input type="radio" name="ethical" value="refuse">I would refuse to carry out the unethical request and discuss my concerns with my
+            leader.</label>
+        <label><input type="radio" name="ethical" value="comply">I would reluctantly comply with the request to avoid conflict.</label>
+
+        <button type="button" onclick="calculateScore()">Submit</button>
+    </form>
+
+    <div id="result" style="display: none;">
+        <h2>Your Evaluation:</h2>
+        <p id="evaluation"></p>
+        <div id="error"></div>
+        <h2>Recommendations:</h2>
+        <p id="recommendations"></p>
+    </div>
+</div>
+
+<script>
+function calculateScore() {
+    const form = document.getElementById('selfAssessmentForm');
+    const radios = form.querySelectorAll('input[type="radio"]:checked');
+
+    if (radios.length !== 5) {
+        alert('Please answer all questions.');
+        return;
+    }
+
+    let score = 0;
+    const errors = [];
+
+    const questionData = [{
+            name: 'guidelines',
+            score: 0,
+            advice: 'You should make a habit of following established guidelines and protocols to ensure professionalism.'
+        },
+        {
+            name: 'systems',
+            score: 0,
+            advice: 'Improving your proficiency with the systems and tools necessary for your job is essential for professional growth.'
+        },
+        {
+            name: 'stakeholders',
+            score: 0,
+            advice: 'Effective communication and collaboration with stakeholders are crucial for professional success. Consider enhancing your skills in this area.'
+        },
+        {
+            name: 'environment',
+            score: 0,
+            advice: 'Being conscious of environmental impact and taking steps to minimize it is a responsible professional practice.'
+        },
+        {
+            name: 'team',
+            score: 0,
+            advice: 'Working effectively within a team environment is vital for achieving common goals. Focus on improving your teamwork skills.'
+        },
+        {
+            name: 'ethical',
+            score: 0,
+            advice: 'Adhering to a strong code of ethics is fundamental for maintaining professional integrity. Reflect on your ethical choices.'
+        },
+    ];
+
+    for (const radio of radios) {
+        const questionName = radio.name;
+        const questionValue = radio.value;
+
+        for (const data of questionData) {
+            if (data.name === questionName) {
+                if (questionValue === 'follow' || questionValue === 'learn' || questionValue === 'communicate' || questionValue === 'address' || questionValue === 'collaborate' || questionValue === 'report' || questionValue === 'refuse') {
+                    data.score++;
+                } else {
+                    errors.push(data.name);
+                }
+            }
+        }
+    }
+
+    const evaluation = document.getElementById('evaluation');
+    const recommendations = document.getElementById('recommendations');
+    recommendations.textContent = '';
+
+    if (errors.length === 0) {
+        evaluation.textContent = 'You are doing an excellent job in maintaining professional practice.';
+        recommendations.textContent = 'Keep up the good work and continue striving for excellence.';
+    } else {
+        evaluation.textContent = 'There are areas for improvement in your professional practice.';
+    }
+
+    // 在这里添加一个错误标记的容器
+    const errorContainer = document.getElementById('error');
+
+    for (const data of questionData) {
+        const questionHeaders = document.querySelectorAll('h2');
+        const regex = new RegExp(data.name, 'i'); // 'i' 表示不区分大小写
+        if (errors.includes(data.name)) {
+            data.score = 0;
+            recommendations.innerHTML += `<li>${data.advice}</li>`;
+            questionHeaders.forEach(header => {
+                if (regex.test(header.textContent)) {
+                    header.classList.add('incorrect');
+                }
+            });
+        } else {
+            questionHeaders.forEach(header => {
+                if (regex.test(header.textContent)) {
+                    header.classList.remove('incorrect');
+                }
+            });
+        }
+    }
+
+    if (errors.length > 0) {
+        errorContainer.innerHTML = '<p class="incorrect">The following questions were answered incorrectly:</p>';
+        for (const error of errors) {
+            const errorText = questionData.find(data => data.name === error) ? error : advice;
+            if (errorText) {
+                errorContainer.innerHTML += `<p class="incorrect">${errorText}</p>`;
+            }
+        }
+    } else {
+        errorContainer.innerHTML = '';
+    }
+
+    document.getElementById('result').style.display = 'block';
+    const resultSection = document.getElementById('result');
+    resultSection.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
