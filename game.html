@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hang Man Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+
+        #video-container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #ff69b4;
+            border-radius: 10px;
+        }
+
+        #download-button {
+            background-color: #ff69b4;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        #download-button:hover {
+            background-color: #ff4d94;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hang Man Game</h1>
+    <div id="video-container">
+        <video controls>
+            <source src="game_recording.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <a id="download-button" href="game.7z" download>Download Game</a>
+</body>
+</html>
