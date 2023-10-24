@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Scenario 1: Ethical Dilemma",
+    "question": "You discover a critical security vulnerability in the company's software that could potentially lead to a data breach. What should you do?",
+    "options": [
+      {
+        "answer": "a) Report the vulnerability to your manager and the security team immediately.",
+        "points": 3,
+        "response": "This is the correct choice because it prioritizes the security of the company's data and follows the best practice of reporting security vulnerabilities to the appropriate authorities."
+      },
+      {
+        "answer": "b) Ignore it for now, as it's not your responsibility to handle security issues.",
+        "points": 1,
+        "response": "This option is not recommended as it neglects the critical security issue and may lead to serious consequences if the vulnerability is exploited."
+      },
+      {
+        "answer": "c) Try to fix the vulnerability by yourself without informing anyone.",
+        "points": 1,
+        "response": "This is not the best choice because attempting to fix the vulnerability on your own may lead to unintended consequences, and security issues should be addressed by the security team."
+      }
+    ],
+    "suggestion": "Prioritizing the security of the company's data is a fundamental responsibility, and reporting the vulnerability to the appropriate authorities is the responsible course of action."
+  },
+  {
+    "title": "Scenario 2: Teamwork and Collaboration",
+    "question": "Your team is facing a tight deadline, and you notice that a colleague is struggling with their tasks. What is the most responsible course of action?",
+    "options": [
+      {
+        "answer": "a) Offer to help your colleague and inform your team lead about the potential delay.",
+        "points": 3,
+        "response": "This is the right choice as it promotes teamwork, communication, and responsible project management by addressing the potential delay proactively."
+      },
+      {
+        "answer": "b) Let your colleague figure it out on their own; it's not your responsibility to help.",
+        "points": 1,
+        "response": "This option may not be the best choice as it disregards teamwork and could lead to project delays and increased stress for your colleague."
+      },
+      {
+        "answer": "c) Work extra hours to complete your tasks, leaving your colleague to manage their workload.",
+        "points": 2,
+        "response": "While it shows dedication, it may not be the most responsible choice as it doesn't address the underlying issue of your colleague's struggle and may lead to burnout."
+      }
+    ],
+    "suggestion": "Teamwork and collaboration are crucial in meeting project goals and responsibilities. Helping your colleague and communicating potential delays is the responsible way to address the situation."
+  },
+  {
+    "title": "Scenario 3: Intellectual Property",
+    "question": "While working on a project, you come across open-source code that could save your team a significant amount of time. What do you do?",
+    "options": [
+      {
+        "answer": "a) Discuss it with your team lead and evaluate if it's suitable to integrate the open-source code, ensuring proper licensing compliance.",
+        "points": 3,
+        "response": "This is the responsible choice as it considers proper licensing and collaboration within the team, ensuring that the use of open-source code is legal and compliant."
+      },
+      {
+        "answer": "b) Use the open-source code without mentioning it to your team, assuming it will save time and benefit the project.",
+        "points": 1,
+        "response": "This option may not be the best choice as it could lead to legal issues if the open-source code is not used in compliance with its licensing terms."
+      },
+      {
+        "answer": "c) Spend extra time developing a similar solution from scratch to avoid any potential licensing issues.",
+        "points": 2,
+        "response": "While it avoids licensing issues, it may not be the most efficient choice, and it's essential to consider the project's timeline and resources."
+      }
+    ],
+    "suggestion": "Respecting proper licensing and discussing with your team lead is the responsible way to handle the use of open-source code to benefit the project."
+  },
+  {
+    "title": "Scenario 4: Communication",
+    "question": "You're aware of a serious software bug in a product about to be released. Your manager insists on releasing it as is to meet a deadline. What should you do?",
+    "options": [
+      {
+        "answer": "a) Express your concerns to your manager, explaining the potential risks and advocate for delaying the release until the bug is fixed.",
+        "points": 3,
+        "response": "This is the right choice as it prioritizes the quality of the product and the potential impact on customers, and it follows responsible communication with management."
+      },
+      {
+        "answer": "b) Follow your manager's orders and release the product, as it's not your decision to make.",
+        "points": 1,
+        "response": "While it respects authority, it may not be the most responsible choice if it potentially jeopardizes product quality and customer satisfaction."
+      },
+      {
+        "answer": "c) Secretly fix the bug and release the product without informing your manager.",
+        "points": 1,
+        "response": "This is not a recommended choice as it involves unauthorized actions and can lead to trust and accountability issues within the team."
+      }
+    ],
+    "suggestion": "Prioritizing product quality and customer satisfaction is essential, and open communication with management is the responsible way to address the situation."
+  },
+  {
+    "title": "Scenario 5: Personal Development",
+    "question": "You have the opportunity to attend a training workshop to enhance your skills, but it falls on a day when a critical project is due. What's the most responsible choice?",
+    "options": [
+      {
+        "answer": "a) Discuss the workshop with your manager and try to find a compromise that allows you to attend while meeting project deadlines.",
+        "points": 3,
+        "response": "This is the responsible choice as it balances personal development with project commitments and demonstrates a proactive approach to problem-solving."
+      },
+      {
+        "answer": "b) Prioritize the project over the workshop, missing out on the opportunity to improve your skills.",
+        "points": 1,
+        "response": "While it prioritizes the project, it may not be the best choice if there's potential for a compromise that allows both personal development and meeting project deadlines."
+      },
+      {
+        "answer": "c) Attend the workshop without notifying anyone, hoping you can catch up on the project later.",
+        "points": 1,
+        "response": "This is not the most responsible choice as it involves secrecy and may lead to unmet project commitments."
+      }
+    ],
+    "suggestion": "Balancing personal development and project commitments through open communication with your manager is the responsible way to address the situation."
+  },
+  {
+    "title": "Scenario 6: Client Expectations",
+    "question": "A client requests a feature that, in your professional opinion, isn't in their best interest. What should you do?",
+    "options": [
+      {
+        "answer": "a) Engage in a conversation with the client, providing alternatives and explaining the potential drawbacks of their request.",
+        "points": 3,
+        "response": "This is the right choice as it prioritizes open communication, client satisfaction, and providing professional expertise to guide the client to better decisions."
+      },
+      {
+        "answer": "b) Implement the requested feature without question; the client's always right.",
+        "points": 1,
+        "response": "While it respects the client's wishes, it may not be the most responsible choice if it potentially leads to a less effective solution."
+      },
+      {
+        "answer": "c) Politely decline the request without providing an explanation.",
+        "points": 2,
+        "response": "This option is better than implementing a feature against professional judgment, but it could benefit from more open communication and explanation."
+      }
+    ],
+    "suggestion": "Open communication with the client and providing professional expertise is the responsible way to handle the situation."
+  },
+  {
+    "title": "Scenario 7: Project Transparency",
+    "question": "During a project meeting, you realize your team is behind schedule. What's the most responsible action?",
+    "options": [
+      {
+        "answer": "a) Raise the issue in the meeting and discuss potential solutions with your team.",
+        "points": 3,
+        "response": "This is the responsible choice as it promotes transparency, collaboration, and proactive problem-solving within the team."
+      },
+      {
+        "answer": "b) Keep quiet and hope the issue resolves itself, as it's not your role to manage the project.",
+        "points": 1,
+        "response": "This option may not be the best choice as it avoids addressing the issue and could lead to more significant problems later on."
+      },
+      {
+        "answer": "c) Blame a colleague for the delay to shift responsibility away from yourself.",
+        "points": 1,
+        "response": "This is not a responsible choice as it involves blame-shifting and lacks accountability within the team."
+      }
+    ],
+    "suggestion": "Promoting transparency and collaboration within the team is the responsible way to address project issues."
+  },
+  {
+    "title": "Scenario 8: Code Quality",
+    "question": "You notice a bug in your code but are afraid it will reflect poorly on your abilities. What's the best course of action?",
+    "options": [
+      {
+        "answer": "a) Immediately inform your team lead and work together to fix the bug and improve the code quality.",
+        "points": 3,
+        "response": "This is the responsible choice as it prioritizes code quality and demonstrates a willingness to collaborate and improve."
+      },
+      {
+        "answer": "b) Ignore the bug, hoping it won't impact the project, as you fear the consequences of reporting it.",
+        "points": 1,
+        "response": "While it may alleviate personal concerns, it's not the best choice as it neglects code quality and potentially impacts the project negatively."
+      },
+      {
+        "answer": "c) Secretly fix the bug without involving anyone else to save face.",
+        "points": 1,
+        "response": "This is not a recommended choice as it involves unauthorized actions and lacks transparency within the team."
+      }
+    ],
+    "suggestion": "Being honest about your lack of familiarity and showing a willingness to learn is the responsible way to approach adopting new technology."
+  },
+  {
+    "title": "Scenario 9: New Technology Adoption",
+    "question": "Your team is considering adopting a new technology for a project, but you're unfamiliar with it. What's your responsibility?",
+    "options": [
+      {
+        "answer": "a) Express your lack of familiarity with the technology, but show a willingness to learn and contribute.",
+        "points": 3,
+        "response": "This is the responsible choice as it promotes honesty, a willingness to learn, and a proactive approach to contributing to the team's success."
+      },
+      {
+        "answer": "b) Pretend you're knowledgeable about the technology to avoid embarrassment.",
+        "points": 1,
+        "response": "This option may not be the best choice as it lacks transparency and may lead to problems down the line due to lack of expertise."
+      },
+      {
+        "answer": "c) Refuse to work on the project due to your lack of expertise, potentially delaying the project.",
+        "points": 2,
+        "response": "While it acknowledges your limitations, it may not be the most responsible choice, as it potentially delays the project without exploring options for learning and adaptation."
+      }
+    ],
+    "suggestion": "Reporting unethical behavior following company policies is the responsible way to address such serious issues and ensure they are properly investigated and resolved."
+  },
+  {
+    "title": "Scenario 10: Whistleblowing",
+    "question": "You uncover evidence of unethical behavior within the company, and it's causing harm. What should you do?",
+    "options": [
+      {
+        "answer": "a) Report the unethical behavior to the appropriate authorities or higher management, following company policies and regulations.",
+        "points": 3,
+        "response": "This is the responsible choice as it follows legal and ethical standards, prioritizes the well-being of the company and its stakeholders, and respects the need for external oversight in such cases."
+      },
+      {
+        "answer": "b) Ignore the issue, as it's not your responsibility to address unethical behavior.",
+        "points": 1,
+        "response": "This option may not be the best choice as it neglects the ethical responsibility to address wrongdoing within the company."
+      },
+      {
+        "answer": "c) Confront the individuals involved directly without involving any external parties.",
+        "points": 2,
+        "response": "While it involves addressing the issue, it may not be the most responsible choice, as it lacks external oversight and could potentially lead to negative consequences for the whistleblower."
+      }
+    ],
+    "suggestion": "Reporting unethical behavior following company policies is the responsible way to address such serious issues and ensure they are properly investigated and resolved."
+  }
+]
