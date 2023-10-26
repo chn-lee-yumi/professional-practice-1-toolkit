@@ -4,14 +4,14 @@
     "question": "You discover a critical security vulnerability in the company's software that could potentially lead to a data breach. What should you do?",
     "options": [
       {
-        "answer": "a) Report the vulnerability to your manager and the security team immediately.",
-        "points": 3,
-        "response": "This is the correct choice because it prioritizes the security of the company's data and follows the best practice of reporting security vulnerabilities to the appropriate authorities."
-      },
-      {
-        "answer": "b) Ignore it for now, as it's not your responsibility to handle security issues.",
+        "answer": "a) Ignore it for now, as it's not your responsibility to handle security issues.",
         "points": 1,
         "response": "This option is not recommended as it neglects the critical security issue and may lead to serious consequences if the vulnerability is exploited."
+      },
+      {
+        "answer": "b) Report the vulnerability to your manager and the security team immediately.",
+        "points": 3,
+        "response": "This is the correct choice because it prioritizes the security of the company's data and follows the best practice of reporting security vulnerabilities to the appropriate authorities."
       },
       {
         "answer": "c) Try to fix the vulnerability by yourself without informing anyone.",
@@ -26,19 +26,19 @@
     "question": "Your team is facing a tight deadline, and you notice that a colleague is struggling with their tasks. What is the most responsible course of action?",
     "options": [
       {
-        "answer": "a) Offer to help your colleague and inform your team lead about the potential delay.",
-        "points": 3,
-        "response": "This is the right choice as it promotes teamwork, communication, and responsible project management by addressing the potential delay proactively."
-      },
-      {
-        "answer": "b) Let your colleague figure it out on their own; it's not your responsibility to help.",
+        "answer": "a) Let your colleague figure it out on their own; it's not your responsibility to help.",
         "points": 1,
         "response": "This option may not be the best choice as it disregards teamwork and could lead to project delays and increased stress for your colleague."
       },
       {
-        "answer": "c) Work extra hours to complete your tasks, leaving your colleague to manage their workload.",
+        "answer": "b) Work extra hours to complete your tasks, leaving your colleague to manage their workload.",
         "points": 2,
         "response": "While it shows dedication, it may not be the most responsible choice as it doesn't address the underlying issue of your colleague's struggle and may lead to burnout."
+      },
+      {
+        "answer": "c) Offer to help your colleague and inform your team lead about the potential delay.",
+        "points": 3,
+        "response": "This is the right choice as it promotes teamwork, communication, and responsible project management by addressing the potential delay proactively."
       }
     ],
     "suggestion": "Teamwork and collaboration are crucial in meeting project goals and responsibilities. Helping your colleague and communicating potential delays is the responsible way to address the situation."
